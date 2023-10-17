@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-ic_tick.svg">
+      <rect width="22" height="22"/>
+    </clipPath>
+  </defs>
+  <g id="ic_tick.svg" clip-path="url(#clip-ic_tick.svg)">
+    <g id="circle-check" transform="translate(-5 -5)">
+      <path id="Path_78258" data-name="Path 78258" d="M0,0H32V32H0Z" fill="none"/>
+      <circle id="Ellipse_5659" data-name="Ellipse 5659" cx="10.667" cy="10.667" r="10.667" transform="translate(5.33 5.33)" fill="#00b416"/>
+      <path id="Path_78259" data-name="Path 78259" d="M9,12.667l2.667,2.667L17,10" transform="translate(3 3.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

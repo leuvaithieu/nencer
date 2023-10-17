@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết tin tức</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+  <div class="wrapper_postdetail">
+    <header class="header-destop">
+        <div class="header_menu">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-1 d-block d-lg-none">
+                    <div class="nav-toggle">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-6 col-6">
+                    <div class="logo-header">
+                        <div class="logo_pc ">
+                            <a href=""><img src="img/logo.svg" alt="" class="w-100"></a>
+                        </div>
+                        <div class="header-language header-language_pc">
+                            <a href="https://www.nencer.com" class="header-language_button ">
+                                <img src="https://en.nencer.com/storage/userfiles/images/vn.png" class="img-fluid" alt="Tiếng Việt">
+                            </a>
+                            <a href="https://en.nencer.com" class="header-language_button  active ">
+                                <img src="https://en.nencer.com/storage/userfiles/images/en.png" class="img-fluid" alt="English">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-xl-10 col-lg-9 col-sm-8 menu_mb">
+                  <nav class="menu_main nav is-fixed" role="navigation">
+                      <div class="nav-container">
+                          <svg class="icon_close d-block d-lg-none" viewBox="0 0 16 14"> 
+                              <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path> 
+                          </svg>
+                          <ul class="nav-menu menu clearfix list-inline">       
+                            <li class="menu-item ">
+                                <a href="gioithieu.html" class="menu-link">Giới thiệu</a>
+                            </li>     
+                            <li class="menu-item has-dropdown">
+                                <a href="" class="menu-link">Phần mềm </a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="soft.html" class="menu-link">Thiết kế phần mềm bán hàng</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="soft.html" class="menu-link">Thiết kế  phần mềm </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-dropdown">
+                                <a href="#" class="menu-link ">Thiết kế web</a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="webdesign.html" class="menu-link">Thiết kế website bán hàng</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="webdesign.html" class="menu-link">Thiết kế website bất động sản</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-dropdown">
+                                <a href="" class="menu-link">Dịch vụ số</a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="service.html" class="menu-link">Dịch vụ hosting</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="service.html" class="menu-link">Dịch vụ cho thuê web</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="menu-link">Cho thuê web</a>
+                            </li>
+                           
+                            <li class="menu-item">
+                                <a href="post.html" class="menu-link">Blog</a>
+                            </li>
+                            <li class="menu-item hotline_header d-none ">
+                                <a href="tel:0123456789">0123456789</a>
+                            </li>
+                            <li class="menu-item btn_acount d-flex">
+                                <a href="login.html">Đăng nhập</a>
+                            </li>
+                            <li class="menu-item btn_acount d-flex">
+                                <a href="register.html">Đăng ký</a>
+                            </li>
+                            
+                        </ul>
+                      </div>
+                  </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opacity_menu"></div>
+    </header>
+    <header class="header-mobile visible-sm">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2 col-2 d-block d-lg-none">
+                <button class="nav-toggle">
+                    <span></span>
+                </button>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6 col-8 justify-content-center">
+                  <div class="logo_pc text-center">
+                      <a href=""><img src="img/logo.svg" alt="" class="w-100"></a>
+                  </div>
+              </div>
+              <div class="col-md-2 col-lg-0 col-2 d-lg-none">
+                <div class="user">
+
+                </div>
+              </div>
+              <div class="col-xl-10 col-lg-9 col-sm-8 menu_mb">
+                  <nav class="menu_main nav is-fixed" role="navigation">
+                      <div class="nav-container">
+                          <!-- <svg class="icon_close d-block d-lg-none" viewBox="0 0 16 14"> 
+                              <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path> 
+                          </svg> -->
+                          <div class="menuMobile__header">
+                            <div class="menuMobile__avatar"><img src="https://vedientu.vn/assets/default/img/default-avatar.png" alt=""></div>
+                                <div class="menuMobile__btn">
+                                    <button type="button" class="btn btn_outlineOrange btn_sm formLogin__click"><span>Đăng nhập</span></button>
+                                    <button type="button" class="btn btn_orange btn_sm formLogin__click"><span>Đăng ký</span></button>
+                                </div>
+                            </div>
+                          <ul class="nav-menu menu clearfix list-inline">       
+                            <li class="menu-item active">
+                                <a href="gioithieu.html" class="menu-link">giới thiệu</a>
+                            </li>     
+                            <li class="menu-item has-dropdown">
+                                <a href="soft.html" class="menu-link">Phần mềm </a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="soft.html" class="menu-link">Thiết kế phần mềm bán hàng</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="soft.html" class="menu-link">Thiết kế  phần mềm </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-dropdown">
+                                <a href="#" class="menu-link ">Thiết kế web</a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="webdesign.html" class="menu-link">Thiết kế website bán hàng</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="webdesign.html" class="menu-link">Thiết kế website bất động sản</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-dropdown">
+                                <a href="" class="menu-link">Dịch vụ số</a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="service.html" class="menu-link">Dịch vụ hosting</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="service.html" class="menu-link">Dịch vụ cho thuê web</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="menu-link">Cho thuê web</a>
+                            </li>
+                           
+                            <li class="menu-item">
+                                <a href="post.html" class="menu-link">Blog</a>
+                            </li >
+                            <li class="menu-item">
+                                <div class="dropdown language">
+                                    <button class="ant-dropdown-trigger dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/vn.png" alt=""><span>Tiếng Việt</span> 
+                                    </button>
+                                    <div class="">
+                                        <div class="ant-dropdown ant-dropdown-placement-bottomLeft ant-dropdown-hidden">
+                                            <ul class="ant-dropdown-menu ant-dropdown-menu-light">
+                                                <li class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child ant-dropdown-menu-item-selected">
+                                                    <button class="language__link">
+                                                        <img src="img/vn.png" alt=""><span>Tiếng Việt</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item hotline_header  ">
+                                <a href="tel:0123456789">0123456789</a>
+                            </li>
+                            <li class="menu-item hotline_header mail-mobi">
+                                <a href="tel:0123456789">Nencer@gmail.com</a>
+                            </li>
+                        </ul>
+                      </div>
+                  </nav>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main class="main">  
+      <section class="banner_main">
+        <div class="banner_simple">
+            <div class="item relative">
+                <div class="banner-content absolute">
+                    <h1 class="banner-title text-uppercase">
+                        Công ty công nghệ Nencer Software
+                    </h1>
+                    <p> Trên 15 năm kinh nghiệm trong ngành công nghệ phần mềm, đội ngũ nhân sự chuyên nghiệp, sản phẩm đóng gói sẵn sàng, hỗ trợ và chăm sóc khách hàng 24/7.</p>
+                </div>
+                <a href=""><img class="w-100" src="img/banner-slide-2.jpg" alt=""/></a>   
+            </div>
+        </div>
+      </section>
+        <section class="section-breadcrumb">
+            <div class="container">
+                <div class="breadcrumb-container">
+                    <ul class="breadcrumb">					
+                      <li class="home">
+                          <a itemprop="url" href="/" title="Trang chủ"><span>Trang chủ</span></a>	
+                      </li>
+                      <li>
+                          <a itemprop="url" href="/tin-tuc" title="Tin tức"><span>Tin tức</span></a>	
+                      </li>
+                      <li><strong><span>Nhu cầu sử dụng oxy y tế trong điều trị chữa bệnh</span></strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="page-title">
+          <div class="container">
+            <div class="post-title common-title text-bold mt-2 mb-2 py-0">
+              <h1>
+                NHU CẦU SỬ DỤNG OXY Y TẾ TRONG ĐIỀU TRỊ CHỮA BỆNH
+              </h1>
+            </div>
+          </div>
+        </div>
+        <section class="post-1 mb-5 relative">
+          <div class="container">
+            <div class="row">
+              <div class="post1-left col-12 col-lg-9">
+                <article class="article-main bg-grey" >
+                    <div class="col-lg-12">
+                        <div class="article-details">				
+                            <div class="article-content">
+                                <div class="rte">		
+                                    <p>Những&nbsp;biểu hiện của những người thiếu oxy&nbsp;thường là&nbsp;mệt lả người, tím tái, co giật, choáng váng, không tự chủ được bản thân. Đa phần họ là&nbsp;những người lớn tuổi có thể trạng yếu hoặc những người đang mang trong người những căn bệnh như suy tim, thiếu máu tuần hoàn não, bệnh suy thận, suy giáp, bệnh phổi tắt nghẽn mãn tính giai đoạn giữa và cuối, bệnh tai biến đột quỵ.</p>
+                                    <p><img alt="" height="370" sizes="(max-width: 660px) 100vw, 660px" src="img/truong-hop-su-dung-may-tao-oxy-min.jpg"  width="660"></p>
+                                    <p>Oxy y tế&nbsp;lúc này là nguồn cung cấp quý giá giúp đỡ cho hệ hô hấp rất nhiều.&nbsp;Oxy y tế&nbsp;dễ dàng đi vào phổi qua động mạch phổi và hòa chung vào máu giúp các tế bào phục hồi sinh trưởng, tăng cường trao đổi chất giúp người bệnh hồi phục.</p>
+                                    <p>Thể tích phổi của chúng ta sẽ giảm xuống theo thời gian khi chúng ta già đinh. Phổi là cơ quan quan trọng sau trái tim giúp điều hòa tuần hoàn dưỡng chất nuôi cơ thể. Thể tích phổi giảm gần 50% khi chúng ta bước qua tuổi 60 điều này lý giải vì sao những người ở tầm độ tuổi này hay có những cơn mệt giống như bi hen suyễn.</p>
+                                    <p><img alt="" height="375" sizes="(max-width: 500px) 100vw, 500px" src="img/tu-van-lua-chon-may-tao-oxy-gia-dinh-1-min.jpg"  width="500"></p>
+                                    <p>Khi người cao tuổi bị một vấn đề liên quan đến bệnh tật, sức đề kháng cũng như hệ hô hấp giảm dần xuống, cơ quan hô hấp không đồng hiệp làm việc như bình thường. Nếu những người bệnh này khi nằm ở trạng thái nghỉ ngơi sẽ gây ra cơn tức ngực, mệt mỏi. Nhưng khi nâng mình và đầu họ lên cao 1 góc từ 10-30 độ thì người bệnh sẽ dễ thở hơn. Vì phổi không bị đè nép và xẹp, phổi không tự co giãn như bình thường. Vì vậy, vì sao nói, khi người cao tuổi trở bệnh, phải sắm ngay 1 giường y tế để giúp họ có thể tịnh dưỡng, giúp dễ thở và nâng cao sức khỏe.</p>
+                                    <p>Một số thông tin chia sẻ về nhu cầu sử dụng&nbsp;<strong><a href="">máy tạo oxy</a></strong>. Hi vọng những thông tin trên hữu ích cho các bạn.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="social-media">
+                            <label>Chia sẻ: </label>
+                            <a  href="" class="share-facebook" title="Chia sẻ lên Facebook">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a  href="" class="share-twitter" title="Chia sẻ lên Twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a  href="" class="share-pinterest" title="Chia sẻ lên pinterest">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                            <a  href="" class="share-google" title="+1">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+              </div>
+              <aside class="post1-right col-12 col-lg-3">
+    
+                <aside class="aside-item collection-category">
+                  <div class="aside-title">
+                    <h2 class="title-head margin-top-0"><span>Danh mục bài viết</span></h2>
+                  </div>
+                  <div class="categories-box">
+                    <ul class="lv1">  
+                      <li class="nav-item nav-items ">
+                        <a href="" title="Trang chủ">
+                          Trang chủ</a>
+                      </li>
+                      <li class="nav-item nav-items ">
+                        <a href="" title="Giới thiệu">
+                          Giới thiệu</a>
+                      </li>
+                      <li class="nav-item nav-items ">
+                        <a href="" class="nav-link" >
+                          Phần mềm	
+                        </a> 
+                        <span class="open-close">
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                        <ul class="lv2">
+                          <li class="">
+                            <a class="nav-link" href="">
+                              Phần mềm 1 
+                            </a>
+                          </li>
+                          <li class="">
+                            <a class="nav-link" href="">
+                              phần mềm 2
+                            </a>
+                          </li>
+                        </ul>
+                      </li>  
+                      <li class="nav-item nav-items ">
+                        <a href="" class="nav-link" title="Thiết kế web">
+                          Thiết kế web	
+                        </a> 
+                        <span class="open-close">
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                        <ul class="lv2">
+                          <li class="">
+                            <a class="nav-link" href="" >
+                              Web mới
+                            </a>
+                          </li>
+                          <li class="">
+                            <a class="nav-link" href="" >
+                              Web hơi mới 
+                            </a>
+                          </li>
+                        </ul>
+                      </li>    
+                      <li class="nav-item nav-items active">
+                        <a href="" title="Tin tức">
+                          Tin tức</a>
+                      </li>
+                      <li class="nav-item nav-items ">
+                        <a href="" title="Liên hệ">
+                          Liên hệ</a>
+                      </li>
+                    </ul>
+                  </div>
+                </aside>
+                <div class="sticky-top60">
+                  <div class="aside-item">
+                    <div class="aside-title">
+                      <div class="title-head margin-top-0">
+                        <a href="" title="Bài viết liên quan">
+                          <h2>Bài viết liên quan</h2>
+                        </a>  
+                      </div>
+                    </div>
+                    <div class="list-blogs">              
+                      <article class="blog-item blog-item-list">					
+                        <h3 class="blog-item-name"><a href="" title="Một ly nước ép mỗi ngày hơn cả trăm thang thuốc bổ">Một ly nước ép mỗi ngày hơn cả trăm thang thuốc bổ</a></h3>
+                      </article>				              
+                      <article class="blog-item blog-item-list">					
+                        <h3 class="blog-item-name"><a href="" title="Bí quyết giảm cân không cần nhịn ăn và tập luyện vất vả">Bí quyết giảm cân không cần nhịn ăn và tập luyện vất vả</a></h3>
+                      </article>				            
+                      <article class="blog-item blog-item-list">					
+                        <h3 class="blog-item-name"><a href="" title="Người bị suy giãn tĩnh mạch không nên bỏ qua các loại thực phẩm">Người bị suy giãn tĩnh mạch không nên bỏ qua các loại thực phẩm</a></h3>
+                      </article>				       
+                      <article class="blog-item blog-item-list">					
+                        <h3 class="blog-item-name"><a href="" title="Nhu cầu sử dụng oxy y tế trong điều trị chữa bệnh">Nhu cầu sử dụng oxy y tế trong điều trị chữa bệnh</a></h3>
+                      </article>				
+                    </div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="Support_home">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="support_item">
+                    <div class="image_icon"><img src="img/icon1.png" alt=""></div>
+                    <div class="support_text">
+                      <span>Tư vấn thiết kế website 24/24</span>
+                      <span>037 955 8185</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="support_item">
+                    <div class="image_icon"><img src="img/icon3.png" alt=""></div>
+                    <div class="support_text">
+                      <span>Tư vấn qua zalo</span>
+                      <span>0379558185</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="support_item">
+                    <div class="image_icon"><img src="img/icon2.png" alt=""></div>
+                    <div class="support_text">
+                      <span>Gửi yêu cầu</span>
+                      <span>support@nencer.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+      <div class="footer">
+          <div class="relative bg-top-footer">
+              <div class="bg section-bg fill bg-fill bg-loaded">
+              </div>
+              <div class="container">
+                  <div class="footer-top">
+                      <div class="row ">
+                          <div class="col-md-4">
+                              <div class="footer-item">
+                              <div class="footer-logo">
+                                  <a href=""><img src="img/logo.svg" class="w-100" alt=""></a>
+                              </div>
+                              <div class="footer-text">Công ty TNHH phần mềm trực tuyến NENCER</div>
+                              <ul class="footer-list list-unstyled">
+                                  <li class="footer-list_item">
+                                  <a href="" class="footer-list_item--link"><i class="fa fa-map-marker" aria-hidden="true"></i> 50 Tran Vy, Mai Dich, Cau Giay, Ha Noi</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                  <a href="" class="footer-list_item--link"><i class="fa fa-phone" aria-hidden="true"></i> 0123145678</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                  <a href="" class="footer-list_item--link"><i class="fa fa-phone" aria-hidden="true"></i> 190021345</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                  <a href="" class="footer-list_item--link"><i class="fa fa-envelope" aria-hidden="true"></i> support@nencer.com</a>
+                                  </li>
+                              </ul>
+                              <ul class="footer-social list-unstyled">
+                                  <li class="footer-social_item"><a href="" class="footer-social_item--link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                  <li class="footer-social_item"><a href="" class="footer-social_item--link"><i class="fa-brands fa-twitter"></i></a></li>
+                                  <li class="footer-social_item"><a href="" class="footer-social_item--link"><i class="fa-brands fa-youtube"></i></a></li>
+                              </ul>
+                              </div>
+                              
+                          </div>
+                          <div class="col-md-8 hidden-menu">
+                          <div class="row">
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Danh mục menu</div>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <a href="">Tìm kiếm</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Giới thiệu</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách đổi trả</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách bảo mật</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Điều khoản dịch vụ</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              </div>
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Danh mục menu</div>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <a href="">Tìm kiếm</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Giới thiệu</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách đổi trả</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách bảo mật</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Điều khoản dịch vụ</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              </div>
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Danh mục menu</div>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <a href="">Tìm kiếm</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Giới thiệu</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách đổi trả</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách bảo mật</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Điều khoản dịch vụ</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              </div>
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Danh mục menu</div>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <a href="">Tìm kiếm</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Giới thiệu</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách đổi trả</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Chính sách bảo mật</a>
+                                      </li>
+                                      <li>
+                                          <a href="">Điều khoản dịch vụ</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              </div>
+                          </div>
+                              
+                          </div>
+                      </div>
+                      <div class="mt-3 mt-sm-0">
+                          <div class="row">
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Đại diện tại Hoa Kỳ</div>
+                                  <ul class="footer-list list-unstyled">
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-map-marker" aria-hidden="true"></i> 50 Tran Vy, Mai Dich, Cau Giay, Ha Noi</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-user" aria-hidden="true"></i> Mr Jason Tran</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-phone" aria-hidden="true"></i> 0123145678</a>
+                                  </li>                            </ul>
+                              </div>
+                              </div>
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Đại diện tại Hàn Quốc</div>
+                                  <ul class="footer-list list-unstyled">
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-map-marker" aria-hidden="true"></i> 50 Tran Vy, Mai Dich, Cau Giay, Ha Noi</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-user" aria-hidden="true"></i> Mr Jason Tran</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-phone" aria-hidden="true"></i> 0123145678</a>
+                                  </li>
+                                  </ul>
+                              </div>
+                              </div>
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Đại diện tại Châu Âu</div>
+                                  <ul class="footer-list list-unstyled">
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-map-marker" aria-hidden="true"></i> 50 Tran Vy, Mai Dich, Cau Giay, Ha Noi</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-user" aria-hidden="true"></i> Mr Jason Tran</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-phone" aria-hidden="true"></i> 0123145678</a>
+                                  </li>                            </ul>
+                              </div>
+                              </div>
+                              <div class="col-lg-3 col-xs-6">
+                              <div class="footer-item">
+                                  <div class="footer_title">Đại diện tại Trung Quốc</div>
+                                  <ul class="footer-list list-unstyled">
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-map-marker" aria-hidden="true"></i> 50 Tran Vy, Mai Dich, Cau Giay, Ha Noi</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-user" aria-hidden="true"></i> Mr Jason Tran</a>
+                                  </li>
+                                  <li class="footer-list_item">
+                                      <a href="" class="footer-list_item--link"><i class="fa fa-phone" aria-hidden="true"></i> 0123145678</a>
+                                  </li>
+                                  </ul>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="bg-bottom-footer">
+              <div class="container">
+                  <div class="footer-bottom">
+                      <div class="row">
+                      <div class="col-md-7">
+                          <div class="copy_right"> ©2010 - 2023 Software by Nencer LLC., </div>
+                      </div>
+                      <div class="col-md-5">
+                          <div class="footer-logo_payment d-flex">
+                          <div class="footer-logo_payment--item"><a href=""><img src="img/visa.png" alt=""></a></div>
+                          <div class="footer-logo_payment--item"><a href=""><img src="img/master.png" alt=""></a></div>
+                          <div class="footer-logo_payment--item"><a href=""><img src="img/jcb.png" alt=""></a></div>
+                          <div class="footer-logo_payment--item"><a href=""><img src="img/america.png" alt=""></a></div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery-3.2.1.min.js" ></script>
+  <script src="js/main.js" ></script>
+  <script src="js/slick.min.js" ></script>  
+</body>
+</html>
