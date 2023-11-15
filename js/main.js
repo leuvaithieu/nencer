@@ -178,6 +178,90 @@ $(document).ready(function() {
     })
 
   
+      $('.slider_main').slick({
+          autoplay: true,
+          autoplaySpeed: 4000,
+          dots: false,
+          arrows: true,
+          prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
+          nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
+          infinite: false,
+          speed: 300,
+          slidesToShow: 1,
+          slidesToScroll: 1
+      });
+
+      $('.logo_doitac').slick({
+          autoplay: true,
+          autoplaySpeed: 4000,
+          dots: false,
+          arrows: true,
+          prevArrow: false,
+          nextArrow: false,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 6,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+      });
+      $('.hotprod-carousel').slick({
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: false,
+          arrows: false,
+          prevArrow: false,
+          nextArrow: false,
+          infinite: true,
+          speed: 1000,
+          slidesToShow: 5,
+          slidesToScroll: 2,
+          responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+      });
+  
 
     // slider
     $('.slider_main').slick({
