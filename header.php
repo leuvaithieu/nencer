@@ -24,7 +24,7 @@
                     <div class="col-xl-2 col-lg-3 col-md-6 col-6">
                         <div class="logo-header">
                             <div class="logo_pc ">
-                                <a href="index.php"><img src="img/logo.svg" alt="" class="w-100"></a>
+                                <a href="index.php"><img src="img/nencer_creative.png" alt="" class="w-100"></a>
                             </div>
                             <div class="header-language position-relative">
                                 <div role="button" class="header-language_btn link-default hstack">
@@ -162,7 +162,7 @@
                   </div>
                   <div class="col-xl-2 col-lg-3 col-md-6 col-8 justify-content-center">
                       <div class="logo_pc text-center">
-                          <a href=""><img src="img/logo.svg" alt="" class="w-100"></a>
+                          <a href=""><img src="img/nencer_creative.png" alt="" class="w-100"></a>
                       </div>
                   </div>
                   <div class="col-md-2 col-lg-0 col-2 d-lg-none">

@@ -1,4 +1,4 @@
-<footer>
+        <footer>
             <div class="footer">
                 <div class="relative bg-top-footer">
                     <div class="bg section-bg fill bg-fill bg-loaded">
@@ -9,7 +9,7 @@
                                 <div class="col-md-4">
                                     <div class="footer-item">
                                     <div class="footer-logo">
-                                        <a href=""><img src="img/logo.svg" class="w-100" alt=""></a>
+                                        <a href="index.php"><img src="img/nencer_white.png" class="w-100" alt=""></a>
                                     </div>
                                     <div class="footer-text">Công ty TNHH phần mềm trực tuyến NENCER</div>
                                     <ul class="footer-list list-unstyled">
